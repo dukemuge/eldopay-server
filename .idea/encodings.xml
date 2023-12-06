@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/email-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/merchant-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/merchant-upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mpesa-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paypal-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-county-resident/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sms-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upload-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

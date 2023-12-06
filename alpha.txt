@@ -1,0 +1,28 @@
+public class AlphanumericGenerator {
+    private static final String ALPHANUMERIC_CHARS = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    private static final int STRING_LENGTH = 6;
+
+    public static void main(String[] args) {
+        String generatedString = generateAlphanumericString();
+        System.out.println("Generated Alphanumeric String: " + generatedString);
+    }
+
+    private static String generateAlphanumericString() {
+        StringBuilder stringBuilder = new StringBuilder(STRING_LENGTH);
+        SecureRandom random = new SecureRandom();
+
+        for (int i = 0; i < STRING_LENGTH; i++) {
+            int randomIndex = random.nextInt(ALPHANUMERIC_CHARS.length());
+            char randomChar = ALPHANUMERIC_CHARS.charAt(randomIndex);
+            stringBuilder.append(randomChar);
+        }
+
+        return stringBuilder.toString();
+    }
+}
+
+
+
+This program defines a generateAlphanumericString method that uses a SecureRandom instance to generate random indices and selects characters from the ALPHANUMERIC_CHARS string. The generated string is then printed to the console.
+
+Note: The SecureRandom class is used here for better randomness.

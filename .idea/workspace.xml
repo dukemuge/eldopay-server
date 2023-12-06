@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21822721-0fcd-46d3-a064-f29e1d81debf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alpha.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/CompanyServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/configuration/EmailConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/configuration/MailConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/configuration/MpesaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/configuration/PaypalConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/configuration/SnsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/CompanyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/MpesaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/county/CountyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/county/CountyPaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/county/CountyProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/county/CountyRequirementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/merchant/MerchantController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/merchant/MerchantRatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/merchant/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/merchant/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/merchant/RatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/uber/DriverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/uber/DriverRatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/uber/RideController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/utility/UtilityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/wallet/TransactionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/worker/WorkerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/controller/worker/WorkerRatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/CreateCompanyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/county/CreateCountyProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/county/CreateCountyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/county/CreateCountyRequirementRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/customer/CreateUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/handyman/CreateWorkerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/handyman/WorkerRatingRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/AccessTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/AcknowledgeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/B2CTransactionAsyncResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/B2CTransactionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/CallbackMetadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/CheckAccountBalanceAsyncResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/CheckAccountBalanceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/CommonSyncResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/ExternalLNMQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/ExternalStkPushRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/InternalB2CTransactionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/InternalLNMRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/InternalStkPushRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/InternalTransactionStatusRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/ItemItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/LNMQueryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/MpesaValidationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/ReferenceData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/ReferenceItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/RegisterUrlRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/RegisterUrlResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/ResultParameterItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/ResultParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/SimulateTransactionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/SimulateTransactionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/StkCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/StkPushAsyncResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/StkPushSyncResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/TransactionStatusAsyncResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/TransactionStatusRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/mpesa/TransactionStatusSyncResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/shop/AddItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/shop/CreateMerchantRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/shop/CreateProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/shop/MerchantRatingRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/shop/MerchantRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/shop/NearestMerchantRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/shop/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/shop/RatingRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/shop/ReviewRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/uber/DriverRatingRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/uber/DriverSignupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/uber/RideRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/uber/StartRideRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/utilities/UtilityPaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/wallet/DepositToWalletRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/dtos/wallet/WithdrawFromWalletRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/CountyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/CountyProductException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/DriverException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/ErrorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/ExceptionHandlerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/MerchantException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/OrderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/ProductException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/RideException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/UserAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions/WorkerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/filter/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/CreditInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/OtpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/bank/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/county/County.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/county/CountyPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/county/CountyProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/county/CountyProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/county/CountyRequirement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/enums/AccountStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/enums/NotificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/enums/PaymentMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/enums/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/enums/ServiceEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/enums/TransactionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/fees/Fee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/fees/FeeCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/fees/FeeTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/fees/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/fees/SchoolCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/fees/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/handyman/CurrentRepair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/handyman/RepairService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/handyman/RepairStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/handyman/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/handyman/WorkerRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/handyman/WorkerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/shop/Merchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/shop/MerchantRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/shop/MerchantType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/shop/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/shop/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/shop/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/shop/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/shop/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/shop/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/shop/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/uber/CourierRide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/uber/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/uber/DriverRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/uber/Parcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/uber/PassengerRide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/uber/RideStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/uber/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/uber/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/utility/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/utility/UtilityPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/wallet/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/wallet/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/models/wallet/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/CompanyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/county/CountyProductCategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/county/CountyProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/county/CountyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/county/CountyRequirementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/county/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/fees/FeeTransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/fees/SchoolCategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/fees/SchoolRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/fees/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/merchant/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/merchant/MerchantRatingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/merchant/MerchantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/merchant/OrderItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/merchant/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/merchant/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/merchant/RatingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/merchant/ReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/merchant/SizeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/transaction/TransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/uber/DriverRatingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/uber/DriverRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/uber/RideRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/uber/VehicleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/wallet/WalletRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/worker/CurrentRepairRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/worker/WorkerRatingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/repository/worker/WorkerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/CountyDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/CountyDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/CustomerDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/CustomerDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/DriverDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/DriverDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/MerchantDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/MerchantDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/SchoolDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/SchoolDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/WorkerDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security/WorkerDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/county/CountyProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/county/CountyRequirementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/county/CountyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/merchant/MerchantRatingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/merchant/MerchantService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/merchant/OrderItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/merchant/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/merchant/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/merchant/RatingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/mpesa/DarajaApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/mpesa/DarajaApiImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/uber/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/uber/DriverRatingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/uber/DriverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/uber/PassengerRideService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/utility/UtilityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/wallet/WalletService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/utils/AlphaNumericGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/utils/ByteArrayToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/utils/HelperUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/utils/MpesaConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/utils/MpesaUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merchant-service/src/test/java/com/eldopay/companyservice/CompanyServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/book/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/book/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/book/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/book/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/exception/BookNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/exception/ExceptionHandlerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/exception/UserAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/exception/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/jwt/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/jwt/JWTAuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/jwt/JWTController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/jwt/JWTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/security/LibrarySecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/security/LibraryUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/security/LibraryUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/user/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/user/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/user/UserRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-county-resident/src/main/java/com/eldopay/securitycountyresident/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-service/src/main/java/com/eldopay/uploadservice/UploadServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-service/src/test/java/com/eldopay/uploadservice/UploadServiceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2YygalPLjpnZU3qJ92maM5PwEMi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jeff/Documents/EldoGo/merchant-service/src/main/java/com/eldopay/companyservice/services&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services" />
+      <recent name="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/security" />
+      <recent name="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice" />
+      <recent name="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/exceptions" />
+      <recent name="$PROJECT_DIR$/merchant-service/src/main/java/com/eldopay/companyservice/services/merchant" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eldopay.companyservice.controller" />
+      <recent name="com.eldopay.companyservice.configuration" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SecurityCountyResidentApplication">
+    <configuration name="CompanyServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eldopay.companyservice.CompanyServiceApplication" />
+      <module name="company-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eldopay.companyservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eldopay.orderservice.OrderServiceApplication" />
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eldopay.orderservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eldopay.mpesaservice.PaymentGatewayApplication" />
+      <module name="mpesa-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eldopay.mpesaservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityCountyResidentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eldopay.securitycountyresident.SecurityCountyResidentApplication" />
+      <module name="security-county-resident" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eldopay.securitycountyresident.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eldopay.uploadservice.UploadServiceApplication" />
+      <module name="upload-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eldopay.uploadservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SecurityCountyResidentApplication" />
+        <item itemvalue="Application.UploadServiceApplication" />
+        <item itemvalue="Application.CompanyServiceApplication" />
+        <item itemvalue="Application.OrderServiceApplication" />
+        <item itemvalue="Application.PaymentGatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21822721-0fcd-46d3-a064-f29e1d81debf" name="Changes" comment="" />
+      <created>1701503350036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701503350036</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
